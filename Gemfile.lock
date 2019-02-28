@@ -240,6 +240,7 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   duktape
+  eventmachine (~> 1.2, >= 1.2.7)
   guard (~> 2.15)
   guard-livereload (~> 2.5, >= 2.5.2)
   jbuilder (~> 2.5)

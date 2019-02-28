@@ -44,6 +44,9 @@ gem 'bulma-rails', '~> 0.7.4'
 # Simple form
 gem 'simple_form', '~> 4.1'
 
+# Event Machine
+gem 'eventmachine', '~> 1.2', '>= 1.2.7'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
