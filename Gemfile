@@ -59,6 +59,8 @@ group :development do
   # Make errors better looking
   gem 'better_errors', '~> 2.5', '>= 2.5.1'
   gem "binding_of_caller"
+  
+   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 end
 
 group :test do
